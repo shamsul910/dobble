@@ -1,170 +1,44 @@
-body {
-  padding-top: 50px;
-}
-
-.em-text {
-  position: absolute
-  color: #f7f35d!important;
-   width: 33%;
-  margin-left: 795px;
-  margin-top: -100px;
-  }
-  
-  
- section{
-   padding: 40px 0 40px;
- }
-
-.jumbotron{
-  background: url(../img/SQRL.png) no-repeat top center; 
-  height:500px;
-  overflow: visible;
-  color: #fff
-}
-
-
-.jumbotron h1{
-  margin-top:60px;
-  margin-left: 100px;
-  
-  
-}
-
-.jumbotron .apple-btn{
-
-  width: 30%;
-  margin-left: 1000px;
-  margin-top: 0px;
-}
-
-.jumbotron .android-btn{
-  width: 30%;
-  margin-left: 1000px;
-  margin-top: 0px;
-}
-
-
-// Classes
-.pull-left {
-  float: left !important;
-}
-.pull-right {
-  float: right !important;
-}
-
-.demo{
-  width: 100%;
-  padding: 3px;
-  border: 1px solid #ccc
-}
-
-
-
-.demo1{
-  width: 100%;
-  padding: 3px;
-  border: 1px solid #ccc
-}
-
-.big-logo{ 
-  float: right;
-}
-
-
-.confidence-field{
-font-size: 24px; 
-}
-ul {
- list-style: none;
-}
-
-
-
-
-
-section#feature{
-  background: #EEC900;
+header{
+  background-image: -webkit-linear-gradient(#00349a, #00349a 60%, #00349a);
   color: #fff;
-  padding: 40px;
-  overflow: auto;
+  min-height: 100px;
+  padding-top: 25px;
 }
 
-
-section#title-bar{
-  background: #EEC900;
-  color: #fff;
-  padding: 0;
-  margin: 0;
-  height: 80px;
+header form{
+  float: right;  
 }
 
-
-section#title-bar h1{
-  margin-top: 15px;
-  font-size: 3em;
+header .logo{
+  float: left;
+}
+.logo {
+  width: 120px;
 }
 
-
-footer li{
- float: left;
- padding: 0 10px 0 10px;  
-   list-style: none;
+.container-myspace {
+  clearfix: none;
+  padding-left: 20px; 
 }
 
-footer a{
-  color: #fff;
+.form-inline {
+  padding-right: 20px;
 }
 
-/* MEDIA QUERIES */
-
-
-
-
-  
- @media(min-width: 769px) and (max-width: 1200px){
-   
-.big-logo{ 
-  float: none !important;
-}
-   }
-   
-   
-  @media(max-width: 1020px){ 
-.big-logo{ 
-  float: none !important;
-}
-   }
-     
-   
-   
-  
- @media(min-width: 0px) and (max-width: 1024px){
-   
-.jumbotron{
-  display: none;
+.checkbox {
+  padding-top: 7px;
 }
 
-
-.jumbotron h1{
-  display: none;
-  
+.panel-heading {
+ background-image: -webkit-linear-gradient(#00349a, #00349a 60%, #00349a);
+    color: #fff; !important;
 }
 
-.jumbotron .apple-btn{
-
-  display: none;
+.panel-title{
+    color: #fff; !important;
 }
 
-.jumbotron .android-btn{
-  display: none;
+.comment-avatar img{
+width: 40px;
+margin-right: 5px;  
 }
- 
-.confidence-field{
-  text-align: center;
-}
-.row{
-  text-align: center;
-}
-  
-  
-}  
